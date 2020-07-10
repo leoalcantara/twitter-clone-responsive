@@ -1,5 +1,7 @@
 import styled, { css } from 'styled-components';
 
+import {Retweet} from '@styled-icons/fa-solid/Retweet';
+
 import { Chat, Rocketseat, Favorite } from '../../styles/Icons';
 
   export const Container = styled.div`
@@ -20,7 +22,7 @@ import { Chat, Rocketseat, Favorite } from '../../styles/Icons';
     color: var(--gray);
   `;
 
-  export const RocketseatIcon = styled(Rocketseat)`
+  export const RocketseatIcon = styled(Retweet)`
     width: 16px;
     height: 16px;
 
@@ -162,5 +164,5 @@ import { Chat, Rocketseat, Favorite } from '../../styles/Icons';
     height: 19px;
   `;
   export const CommentIcon = styled(Chat)`${iconCSS}`;
-  export const RetweetIcon = styled(Rocketseat)`${iconCSS}`;
+  export const RetweetIcon = styled(Retweet)`${iconCSS}`;
   export const LikeIcon = styled(Favorite)`${iconCSS}`;
