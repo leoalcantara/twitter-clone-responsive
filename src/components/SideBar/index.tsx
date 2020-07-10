@@ -2,6 +2,7 @@ import React from 'react';
 
 import List from '../List';
 import FollowSuggestion from '../FollowSuggestion';
+import News from '../News';
 
 import { 
   Container,
@@ -40,7 +41,7 @@ const SideBar: React.FC = () => {
         /> 
         <List 
           title = "Talvez você curta"
-          elements = {[<h1>TEST</h1>,<h1>TEST</h1>,<h1>TEST</h1>]}
+          elements = {[<News/>, <News/>, <News/>]}
         />       
       </Body>
     </Container>
