@@ -25,7 +25,7 @@ const ProfilePage: React.FC = () => {
         <h1>Leonidio Alcantara</h1>
         <h2>@leoalcantara</h2>
         <p>
-          Developer at <a href="#">@Software</a>
+          Developer at <a href="/">@Software</a>
         </p>
 
         <ul>
